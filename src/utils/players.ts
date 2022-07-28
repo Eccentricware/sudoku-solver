@@ -8,6 +8,6 @@ export class Players {
   }
 
   createSampleRoster() {
-
+    this.players.push(new Player('Ingrid Killingsworth', 52, 'Impossible'));
   };
 }
