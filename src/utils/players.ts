@@ -8,6 +8,6 @@ export class Players {
   }
 
   createSampleRoster() {
-
+    this.players.push(new Player('Holly Fallborne', 38, 'Hourly Marathon'));
   };
 }
