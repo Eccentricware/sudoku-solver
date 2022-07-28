@@ -8,6 +8,6 @@ export class Players {
   }
 
   createSampleRoster() {
-
+    this.players.push(new Player('Jerome Tennenbaum', 41, 'Jazz Journey'));
   };
 }
