@@ -8,6 +8,6 @@ export class Players {
   }
 
   createSampleRoster() {
-
+    this.players.push(new Player('Frank Malony', 31, 'Fire Mode'));
   };
 }
