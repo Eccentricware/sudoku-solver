@@ -9,5 +9,7 @@ export class Players {
 
   createSampleRoster() {
     this.players.push(new Player('Benjamin Burkshire', 19, 'Beginner'));
+    this.players.push(new Player('Anna LaNina', 37, 'Advanced'));
+    this.players.push(new Player('Leonard Nimoy', 34, 'Logical'));
   };
 }
