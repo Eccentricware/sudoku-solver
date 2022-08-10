@@ -8,6 +8,7 @@ export class Players {
   }
 
   createSampleRoster() {
+    this.players.push(new Player('Greg Goldflow', 29, 'Gauntlet'));
     this.players.push(new Player('Frank Malony', 31, 'Fire Mode'));
     this.players.push(new Player('Elise Killingsworth', 22, 'Easy'));
     this.players.push(new Player('Deckard Cainsland', 93, 'Difficult'));
