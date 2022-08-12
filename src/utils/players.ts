@@ -8,6 +8,7 @@ export class Players {
   }
 
   createSampleRoster() {
+    this.players.push(new Player('Ingrid Killingsworth', 52, 'Impossible'));
     this.players.push(new Player('Holly Fallborne', 38, 'Hourly Marathon'));
     this.players.push(new Player('Greg Goldflow', 29, 'Gauntlet'));
     this.players.push(new Player('Frank Malony', 31, 'Fire Mode'));
