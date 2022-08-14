@@ -8,6 +8,7 @@ export class Players {
   }
 
   createSampleRoster() {
+    this.players.push(new Player('Kirk Shatner', 93, 'Kitch Aid'));
     this.players.push(new Player('Jerome Tennenbaum', 41, 'Jazz Journey'));
     this.players.push(new Player('Ingrid Killingsworth', 52, 'Impossible'));
     this.players.push(new Player('Holly Fallborne', 38, 'Hourly Marathon'));
