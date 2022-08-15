@@ -20,5 +20,6 @@ export class Players {
     this.players.push(new Player('Jerome Tennenbaum', 41, 'Jazz Journey'));
     this.players.push(new Player('Kirk Shatner', 93, 'Kitch Aid'));
     this.players.push(new Player('Leonard Nimoy', 34, 'Logical'));
+    this.players.push(new Player('McCoy Bones', 99, 'Master'));
   };
 }
